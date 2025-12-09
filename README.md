@@ -1,5 +1,3 @@
-# Agata-Gabara
-
 # Hello, I’m **Agata Gabara**
 
 I am a motivated and analytical IT professional with a strong foundation in **Information Technology**, **data analytics**, and **software development**. My academic background and hands-on experience span multiple domains, including Python programming, Java development, data analysis, and applied machine-learning concepts. I’m committed to building high-quality, scalable, and meaningful projects that solve real problems and demonstrate continuous technical growth.
