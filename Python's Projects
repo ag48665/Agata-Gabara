@@ -1,1 +1,130 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# If Plotly isn't installed in Mu's Python, you'll need:
+# "C:\\Users\\PC\\AppData\\Local\\python\\mu\\mu_venv-38-20250910-113446\\scripts\\python.exe" -m pip install plotly
+import plotly.graph_objects as go
+
+# -------------------------------------------------
+# 1. Load data
+# -------------------------------------------------
+df = pd.read_csv("https://raw.githubusercontent.com/rajeevratan84/data-analyst-bootcamp/master/7160_1.csv")
+
+print("HEAD:")
+print(df.head())
+
+print("\nMISSING VALUES:")
+print(df.isnull().sum())
+
+print("\nSHAPE:")
+print(df.shape)
+
+# -------------------------------------------------
+# 2. Basic exploratory plots (Matplotlib)
+# -------------------------------------------------
+
+# Top 20 cities
+plt.figure()
+df['city'].value_counts().head(20).plot(kind='barh')
+plt.title("Top 20 Cities")
+plt.xlabel("Count")
+plt.ylabel("City")
+plt.tight_layout()
+plt.show()
+
+# Top 20 provinces
+plt.figure()
+df['province'].value_counts().head(20).plot(kind='barh')
+plt.title("Top 20 Provinces")
+plt.xlabel("Count")
+plt.ylabel("Province")
+plt.tight_layout()
+plt.show()
+
+# Top 20 categories
+plt.figure()
+df['categories'].value_counts().head(20).plot(kind='barh')
+plt.title("Top 20 Categories")
+plt.xlabel("Count")
+plt.ylabel("Category")
+plt.tight_layout()
+plt.show()
+
+# Top 20 postal codes (raw)
+plt.figure()
+df['postalCode'].value_counts().head(20).plot(kind='barh')
+plt.title("Top 20 Postal Codes")
+plt.xlabel("Count")
+plt.ylabel("Postal Code")
+plt.tight_layout()
+plt.show()
+
+# -------------------------------------------------
+# 3. Clean ZIP codes and count breweries per ZIP
+# -------------------------------------------------
+brewery_count = df['postalCode'].value_counts().reset_index()
+brewery_count.columns = ['ZIP', 'Count']
+
+# Ensure strings
+brewery_count['ZIP'] = brewery_count['ZIP'].astype(str)
+
+# Keep first 5 chars (handle ZIP+4 like "12345-6789")
+brewery_count['ZIP'] = brewery_count['ZIP'].str[:5]
+
+# Pad to 5 digits
+brewery_count['ZIP'] = brewery_count['ZIP'].str.zfill(5)
+
+# Keep only numeric ZIPs
+brewery_count = brewery_count[brewery_count['ZIP'].str.isnumeric()]
+
+# Optional integer version
+brewery_count['ZIP_int'] = brewery_count['ZIP'].astype('int64')
+
+print("\nCLEANED BREWERY COUNT BY ZIP (top 20):")
+print(brewery_count.head(20))
+
+# Quick bar plot of top ZIPs
+plt.figure()
+brewery_count.head(30).set_index('ZIP')['Count'].plot(kind='barh')
+plt.title("Top 30 ZIP Codes by Brewery Count")
+plt.xlabel("Number of Breweries")
+plt.ylabel("ZIP Code")
+plt.tight_layout()
+plt.show()
+
+# -------------------------------------------------
+# 4. Aggregate by state (province) and build Plotly choropleth
+# -------------------------------------------------
+state_counts = df['province'].value_counts().reset_index()
+state_counts.columns = ['state', 'Count']
+
+# Blue sequential colorscale
+colorscale = [
+    "#f7fbff", "#ebf3fb", "#deebf7", "#d2e3f3", "#c6dbef", "#b3d2e9",
+    "#9ecae1", "#85bcdb", "#6baed6", "#57a0ce", "#4292c6", "#3082be",
+    "#2171b5", "#1361a9", "#08519c", "#0b4083", "#08306b"
+]
+
+fig = go.Figure(
+    data=go.Choropleth(
+        locations=state_counts['state'],   # e.g. 'CA', 'TX', 'NY'
+        z=state_counts['Count'],
+        locationmode='USA-states',
+        colorscale=colorscale,
+        zmin=state_counts['Count'].min(),
+        zmax=state_counts['Count'].max(),
+        colorbar_title="Breweries"
+    )
+)
+
+fig.update_layout(
+    title="Breweries by US State",
+    geo_scope='usa'
+)
+
+# Save interactive map as HTML (open this file in your browser)
+fig.write_html("breweries_map.html")
+print("\nWrote map to breweries_map.html")
 
