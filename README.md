@@ -1,103 +1,49 @@
-# Hello, I’m **Agata Gabara**
+# Promoter vs Non-Promoter Sequence Analysis
+This project performs an exploratory bioinformatics analysis of a labeled DNA sequence
+dataset to identify features that distinguish promoter (+) from non-promoter (−) regions.
 
-I am a motivated and analytical IT professional with a strong foundation in **Information Technology**, **data analytics**, and **software development**. My academic background and hands-on experience span multiple domains, including Python programming, Java development, data analysis, and applied machine-learning concepts. I’m committed to building high-quality, scalable, and meaningful projects that solve real problems and demonstrate continuous technical growth.
+## Project Overview
+The analysis focuses on:
+- DNA sequence length
+- GC content
+- Trinucleotide (3-mer) frequency analysis
 
-## **About Me**
+Promoter and non-promoter sequences are compared to identify characteristic
+sequence patterns using simple, interpretable methods.
 
-With an IT degree from Middlesex University in London and additional experience in data-driven environments, I combine technical knowledge with strong analytical thinking. My focus is on developing clean, maintainable software and building practical tools using modern programming techniques.
+## Dataset
+The dataset consists of fixed-length DNA sequences from *Escherichia coli*.
+Each record contains:
+- a class label (+ promoter / − non-promoter)
+- a sequence identifier
+- a nucleotide sequence (A, C, G, T)
+The dataset is publicly available on Kaggle.
 
-I am continually expanding my skills through structured learning and personal projects. My current development interests include:
+## Repository Structure
+promoter-sequence-analysis/
+├── notebooks/ # Jupyter notebook with full analysis
+├── figures/ # Generated plots
+├── report/ # PDF report with interpretations
+├── data/ # Input dataset (optional)
+├── requirements.txt
+└── README.md
 
-- Software engineering with **Python** and **Java**
-- Data analytics and workflow automation  
-- Machine learning fundamentals and ANN models  
-- Clean code architecture and practical problem-solving  
-- Building well-documented, production-ready applications  
 
-I enjoy transforming complex problems into clear, logical, and efficient solutions.
+## How to Run
 
-## **Technical Skills**
+1. Create a virtual environment (optional but recommended)
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-### **Programming Languages**
-- **Python**, **Java**, SQL, Shell scripting (beginner)
+3.Open the notebook:
+jupyter notebook notebooks/promoter_analysis.ipynb
 
-### **Tools & Technologies**
-- Git & GitHub  
-- Jupyter Notebook  
-- Object-Oriented Programming (OOP)  
-- Data analysis tools  
-- Excel (advanced data handling & automation)  
-- Basic ML concepts (ANN, model exploration)
+Results
+•	Promoter sequences show strong AT-rich 3-mer patterns (AAA, TTT, TTA)
+•	Non-promoter sequences exhibit more GC-mixed and coding-like motifs (ATG, TGA, ACG)
+•	These differences suggest short k-mer patterns can help discriminate promoter regions
+Author
+Agata Gabara
 
-### **Professional Capabilities**
-- Requirements gathering & problem analysis  
-- Writing clear technical documentation  
-- Designing structured data workflows  
-- Working with datasets and analytical reporting  
-- Developing modular, maintainable code  
 
-## **Highlighted Projects**
-
-Below are selected projects representing my technical progression and areas of focus.  
-Full source code is available in this repository.
-
-### ** Python Projects**
-A collection of Python scripts and mini-applications demonstrating:
-- Data processing  
-- Automation  
-- Algorithmic thinking  
-- Error handling & code structuring  
-- Practical problem-solving using Python  
-
-### **Java Applications**
-Object-oriented projects showcasing:
-- OOP principles  
-- Application flow design  
-- Input validation, classes, and exception handling  
-- Foundational Java application architecture  
-
-### ** Machine Learning & ANN Explorations**
-Academic and personal research notebooks covering:
-- Artificial Neural Networks  
-- Supervised model training workflows  
-- Data preprocessing and conceptual ML understanding  
-
-### ** Data Analytics / Excel Projects**
-Work demonstrating:
-- Data manipulation  
-- Spreadsheet modelling  
-- Extracting insights from structured datasets  
-- Applying logical and statistical functions to analyses  
-
-##  **Current Goals**
-
-I am actively working on:
-
-- Expanding my Python and Java development portfolio  
-- Strengthening my understanding of machine learning and data-driven modelling  
-- Building polished, practical applications  
-- Preparing for future roles that combine IT, analytics, and software development  
-- Improving documentation, code clarity, and modularity across projects  
-
-My long-term objective is to build expertise in technical roles where programming, data analysis, and system thinking intersect.
-
-## **Collaboration & Interests**
-
-I am open to connecting with individuals, teams, or organisations interested in:
-
-- Software development  
-- Data analytics and automation  
-- Applied machine learning  
-- Open-source contributions  
-- Academic or practical IT projects  
-
-## **Contact**
-
-Feel free to reach out for collaboration, inquiries, or opportunities.
-
-- **Email:** agatagabara@gmail.com  
-- **Phone:** +44 7904 220 617  
-- **GitHub:** [github.com/ag48665](https://github.com/ag48665)  
-
-Thank you for visiting my profile.  
-I’m continuously updating my projects as I learn and grow — stay tuned for more!
