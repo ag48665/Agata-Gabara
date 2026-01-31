@@ -84,6 +84,7 @@ Artificial Neural Network project demonstrating:
 I am actively building my portfolio and seeking opportunities in:
 - Cybersecurity / SOC  
 - IT Support / Infrastructure  
-- Entry-level Cloud or Network roles  
+- Entry-level Cloud or Network roles
+- Bioinformatics.
 
 Feel free to explore my projects or connect with me!
