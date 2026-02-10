@@ -67,7 +67,6 @@ I regularly practice labs and simulations to improve my practical understanding 
 
 **Currently Learning**
 
-*CC
 * GIAC
 * CISP
 * CompTIA CYSA+
