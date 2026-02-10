@@ -24,6 +24,23 @@ This project demonstrates understanding of:
 * edge AI concepts
 
 ---
+---
+
+## 🎥 Project Demonstration (Video)
+
+Click the image below to watch the project working on real hardware:
+
+[![Watch the demo](https://img.youtube.com/vi/i8t6EIOz1OY/0.jpg)](https://www.youtube.com/watch?v=i8t6EIOz1OY)
+
+This video demonstrates:
+
+* neural network training on Arduino
+* live sensor input reading
+* classification output in Serial Monitor
+* real-time prediction after training
+
+The neural network is trained directly on the microcontroller and then used to classify input signals from digital pins.
+
 
 ## Neural Network Architecture
 
