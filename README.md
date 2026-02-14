@@ -28,7 +28,7 @@ Exploratory computational genomics project analysing *E. coli* DNA sequences to 
 * k-mer composition provided discriminative features for classification
 
 
-### 1. TCGA Lung Cancer RNA-seq Analysis
+### TCGA Lung Cancer RNA-seq Analysis
 
 🔗 https://github.com/ag48665/tcga-lung-rnaseq-analysis
 
@@ -44,7 +44,7 @@ Differential gene expression analysis of TCGA Lung Squamous Cell Carcinoma (LUSC
 
 ---
 
-### 2. Single-Cell RNA-seq PBMC Cell Atlas
+### Single-Cell RNA-seq PBMC Cell Atlas
 
 🔗 https://github.com/ag48665/scrna-pbmc-cell-atlas
 
