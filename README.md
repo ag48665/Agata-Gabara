@@ -63,6 +63,27 @@ Differential gene expression analysis of TCGA Lung Squamous Cell Carcinoma (LUSC
 * Biological interpretation
 
 ---
+### 🏥 Breast Cancer Survival Analysis
+
+🔗 https://github.com/ag48665/Agata-Gabara/tree/main/breast-cancer-survival-analysis
+
+Clinical data analysis project investigating factors associated with breast cancer patient survival using statistical and exploratory data analysis techniques.
+
+**Methods**
+
+* Clinical dataset preprocessing
+* Handling missing medical data
+* Exploratory data analysis
+* Survival-related variable analysis
+* Visualization of clinical patterns
+
+**Skills demonstrated**
+
+* Working with real-world medical datasets
+* Data cleaning and preprocessing
+* Statistical reasoning
+* Biomedical data interpretation
+
 
 ### Single-Cell RNA-seq PBMC Cell Atlas
 
