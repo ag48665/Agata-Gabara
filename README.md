@@ -112,5 +112,6 @@ Single-cell RNA sequencing analysis of human PBMC dataset.
 ---
 
 ## 📫 Contact
-
+Agata Gabara
+agatagabara@gmail.com
 LinkedIn: https://www.linkedin.com/in/agatha-gabara-06494a37/
