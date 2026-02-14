@@ -103,11 +103,30 @@ Single-cell RNA sequencing analysis of human PBMC dataset.
 
 ## 🛠 Technical Skills
 
+**Bioinformatics & Analysis**
+
+* RNA-seq differential expression (DESeq2)
+* Single-cell RNA-seq analysis (Scanpy)
+* DNA sequence analysis (k-mer, GC content)
+* Protein sequence analysis (Biopython, ESM-2)
+
+**Programming**
+
 * Python (pandas, numpy, matplotlib, seaborn, scanpy)
 * R (DESeq2, ggplot2)
+
+**Data & Tools**
+
 * Linux / Bash
 * Git & GitHub
-* RNA-seq analysis pipelines
+* Data cleaning and preprocessing
+* Statistical analysis of biological datasets
+
+## 📌 Currently Learning
+
+* Advanced RNA-seq workflows
+* Biological interpretation of gene expression
+* Machine learning in genomics
 
 ---
 
