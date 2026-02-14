@@ -9,7 +9,7 @@ Currently focusing on RNA-seq analysis, transcriptomics, and single-cell analysi
 
 ## 🤖 Protein Function Analysis using AI (ESM-2)
 
-🔗 https://github.com/ag48665/protein-language-model-analysis
+🔗 [https://github.com/ag48665/protein-language-model-analysis](https://github.com/ag48665/Agata-Gabara/tree/main/Python%20Projects/Protein-Dataset-Analysis)
 
 Computational protein sequence analysis using a deep learning protein language model (ESM-2) to investigate structural and functional patterns in amino acid sequences.
 
