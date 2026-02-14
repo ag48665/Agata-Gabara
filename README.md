@@ -7,6 +7,26 @@ Currently focusing on RNA-seq analysis, transcriptomics, and single-cell analysi
 
 ## 🧬 Featured Projects
 
+## 🤖 Protein Function Analysis using AI (ESM-2)
+
+🔗 https://github.com/ag48665/protein-language-model-analysis
+
+Computational protein sequence analysis using a deep learning protein language model (ESM-2) to investigate structural and functional patterns in amino acid sequences.
+
+**Methods**
+
+* Protein sequence preprocessing (Biopython)
+* Amino acid composition analysis
+* Sequence length distribution
+* Motif / prefix detection
+* Deep learning embeddings (ESM-2)
+
+**Biological Relevance**
+
+* Sequence patterns relate to protein structure and function
+* Embeddings capture similarity between proteins
+* Demonstrates modern AI approaches used in computational biology
+
 ## 🧪 Promoter Sequence Analysis (Biopython)
 
 🔗 https://github.com/ag48665/Agata-Gabara/tree/main/Biopython-Projects/promoter_project
