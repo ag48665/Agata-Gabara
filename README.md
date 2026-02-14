@@ -7,6 +7,27 @@ Currently focusing on RNA-seq analysis, transcriptomics, and single-cell analysi
 
 ## 🧬 Featured Projects
 
+## 🧪 Promoter Sequence Analysis (Biopython)
+
+🔗 https://github.com/ag48665/Agata-Gabara/tree/main/Biopython-Projects/promoter_project
+
+Exploratory computational genomics project analysing *E. coli* DNA sequences to distinguish promoter and non-promoter regions using sequence-based features.
+
+**Methods**
+
+* DNA sequence preprocessing (Biopython)
+* GC-content calculation
+* k-mer (3-mer) frequency analysis
+* Class comparison (promoter vs non-promoter)
+* Biological motif interpretation
+
+**Key Findings**
+
+* Promoter regions showed strong AT-rich patterns
+* Non-promoters contained mixed motifs (e.g. ATG, TGA)
+* k-mer composition provided discriminative features for classification
+
+
 ### 1. TCGA Lung Cancer RNA-seq Analysis
 
 🔗 https://github.com/ag48665/tcga-lung-rnaseq-analysis
