@@ -1,8 +1,6 @@
-Early-career bioinformatics and computational biology candidate with hands-on experience in genomic, transcriptomic, and protein sequence analysis using Python and R. Interested in research support and biological data analysis roles.
 
 # 👩‍💻 Agata Gabara — Bioinformatics Portfolio
-
-Aspiring Bioinformatics Analyst transitioning from IT & Accounting into Computational Biology.
+Early-career bioinformatics and computational biology candidate with hands-on experience in genomic, transcriptomic, and protein sequence analysis using Python and R. Interested in research support and biological data analysis roles.
 Currently focusing on RNA-seq analysis, transcriptomics, and single-cell analysis using Python and R.
 
 ---
