@@ -5,8 +5,6 @@ Currently focusing on RNA-seq analysis, transcriptomics, and single-cell analysi
 
 ---
 
----
-
 ## 🔬 Flagship Research Project
 
 ## Tumor Immune Evasion in Lung Cancer — Single-Cell RNA-seq Analysis
@@ -33,8 +31,7 @@ How do tumor cells alter the tumor microenvironment to suppress immune response?
 * Explains mechanisms of tumor immune evasion
 * Relevant to cancer immunotherapy
 * Demonstrates research-level bioinformatics workflow
-
-**
+  
 ## 🧬 Featured Projects
 
 ## 🤖 Protein Function Analysis using AI (ESM-2)
