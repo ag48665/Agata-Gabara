@@ -5,6 +5,36 @@ Currently focusing on RNA-seq analysis, transcriptomics, and single-cell analysi
 
 ---
 
+---
+
+## 🔬 Flagship Research Project
+
+## Tumor Immune Evasion in Lung Cancer — Single-Cell RNA-seq Analysis
+
+🔗 https://github.com/ag48665/tcga-lung-immune-evasion-scRNAseq
+
+Single-cell transcriptomic analysis investigating how lung cancer tumors evade the immune system using publicly available human tumor scRNA-seq datasets.
+
+This project focuses on identifying immune cell populations within the tumor microenvironment and analysing gene expression patterns associated with immune suppression and T-cell dysfunction.
+
+### Biological Question
+How do tumor cells alter the tumor microenvironment to suppress immune response?
+
+### Methods & Workflow
+* Single-cell RNA-seq preprocessing and quality control (Scanpy)
+* Filtering low-quality cells and mitochondrial genes
+* Normalization and highly variable gene selection
+* PCA and UMAP dimensionality reduction
+* Clustering and immune cell type annotation
+* Marker gene identification
+* Analysis of immune checkpoint gene expression (PD-1 / PD-L1 / CTLA4)
+
+### Biological Relevance
+* Explains mechanisms of tumor immune evasion
+* Relevant to cancer immunotherapy
+* Demonstrates research-level bioinformatics workflow
+
+**
 ## 🧬 Featured Projects
 
 ## 🤖 Protein Function Analysis using AI (ESM-2)
