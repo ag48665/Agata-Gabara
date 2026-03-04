@@ -33,6 +33,33 @@ Tumor transcriptomic programs reflecting squamous epithelial differentiation and
 ![Survival](https://raw.githubusercontent.com/ag48665/tcga-lusc-biomarker-analysis/main/figures/signature_KM.png)
 
 ---
+### Immune Landscape and Immune Escape in Lung Squamous Cell Carcinoma
+
+🔗 https://github.com/ag48665/lusc-immune-escape-analysis
+
+Computational analysis of tumor immune microenvironment in lung squamous cell carcinoma using RNA-seq immune gene signatures and machine learning.
+
+This project investigates how immune activation, cytotoxic T-cell activity, tertiary lymphoid structures (TLS), and T-cell exhaustion shape tumor immune phenotypes and contribute to immune escape.
+
+**What this project demonstrates**
+
+• Immune gene signature scoring (TIS, Cytotoxicity, TLS, Exhaustion)  
+• Tumor immune landscape analysis using PCA and UMAP  
+• Machine learning classification of immune phenotypes (Random Forest)  
+• Feature importance analysis and SHAP interpretation  
+• Immune checkpoint signaling analysis (PD-1 / PD-L1 / CTLA4 / TIGIT / LAG3)  
+• Construction of an immune state model based on cytotoxicity and exhaustion  
+• Pathway enrichment and immune gene network analysis  
+
+**Key scientific finding**
+
+Tumors with high immune activation show strong upregulation of immune checkpoint pathways, suggesting that chronic immune stimulation drives T-cell exhaustion and promotes tumor immune escape.
+
+![Immune landscape](https://raw.githubusercontent.com/ag48665/lusc-immune-escape-analysis/main/results_safe/FIG_UMAP_panel_subtype_TIS_TLS_EXH_CYTO.png)
+
+![Checkpoint correlation](https://raw.githubusercontent.com/ag48665/lusc-immune-escape-analysis/main/results_safe/FIG_activation_to_checkpoints.png)
+
+---
 
 ## Additional Research Projects
 
