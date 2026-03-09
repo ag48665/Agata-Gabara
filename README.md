@@ -55,8 +55,6 @@ Tumors with high immune activation show strong upregulation of immune checkpoint
 
 ![Immune landscape](https://raw.githubusercontent.com/ag48665/lusc-immune-escape-analysis/main/results_safe/FIG_UMAP_panel_subtype_TIS_TLS_EXH_CYTO.png)
 
-![Checkpoint correlation](https://raw.githubusercontent.com/ag48665/lusc-immune-escape-analysis/main/results_safe/FIG_activation_to_checkpoints.png)
-
 ---
 
 ## Additional Research Projects
