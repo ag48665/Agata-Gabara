@@ -1,174 +1,184 @@
-# 👩‍💻 Agata Gabara — Bioinformatics & Computational Biology Portfolio
+# Agata Gabara  
+## Bioinformatics & Computational Cancer Genomics
 
-Early-career bioinformatics researcher focusing on computational cancer genomics and transcriptomic data analysis.
+Computational biology researcher focused on **transcriptomics, cancer genomics, and survival modeling**.
+
+My work focuses on extracting biologically meaningful insights from large-scale genomic datasets using reproducible computational pipelines in **R and Python**.
+
+Research interests include:
+
+• Cancer transcriptomics  
+• RNA-seq analysis  
+• Tumor immune microenvironment  
+• Survival modeling and prognostic signatures  
+• Single-cell transcriptomics  
 
 ---
 
-## ⭐ Primary Research Project
+# Research Focus
 
-### Transcriptome-based Prognostic Signature for Lung Squamous Cell Carcinoma
+My research explores how **tumor gene expression programs and immune signaling shape clinical outcomes in cancer**.
+
+I develop reproducible pipelines integrating:
+
+- RNA-seq analysis  
+- survival modeling  
+- pathway enrichment  
+- machine learning  
+- single-cell transcriptomics  
+
+with the goal of identifying **biologically meaningful biomarkers and clinically relevant tumor phenotypes**.
+
+---
+
+# Featured Research Projects
+
+## Transcriptome-based Prognostic Signature for Lung Squamous Cell Carcinoma
 
 🔗 https://github.com/ag48665/lusc-transcriptomic-prognostic-signature
 
 Development and validation of a transcriptome-based survival prediction model for lung squamous cell carcinoma using TCGA transcriptomic data and independent GEO validation cohorts.
 
-**What this project demonstrates**
+**Methods**
 
-• Transcriptome-wide survival modeling using Cox regression  
-• Elastic-net and Cox-prefilter feature selection strategies  
-• Kaplan–Meier survival stratification of risk groups  
-• Time-dependent ROC analysis for survival prediction  
-• Multivariable Cox regression integrating clinical variables  
-• Calibration analysis and decision curve analysis  
-• External validation in independent GEO cohorts (GSE30219, GSE37745)  
-• Fully reproducible bioinformatics workflow  
+- Elastic-net Cox survival modeling  
+- Cox-prefilter feature selection  
+- Kaplan–Meier survival analysis  
+- Time-dependent ROC analysis  
+- Multivariable Cox regression  
+- Calibration analysis  
+- Decision curve analysis  
+- External validation (GSE30219, GSE37745)
 
-**Key scientific finding**
+**Key result**
 
-A Cox-prefilter transcriptomic signature improves survival risk stratification in lung squamous cell carcinoma and demonstrates partial reproducibility in independent validation cohorts.
+A Cox-prefilter transcriptomic signature improves risk stratification in lung squamous cell carcinoma and shows partial reproducibility in independent cohorts.
 
 ![Model overview](https://raw.githubusercontent.com/ag48665/lusc-transcriptomic-prognostic-signature/main/figures/final_figure_panel.png)
-### Immune Landscape and Immune Escape in Lung Squamous Cell Carcinoma
+
+---
+
+## Reproducible Cancer Transcriptomics — TCGA Lung Squamous Cell Carcinoma
+
+🔗 https://github.com/ag48665/tcga-lusc-biomarker-analysis
+
+End-to-end RNA-seq analysis pipeline identifying biologically meaningful tumor programs and survival-associated gene signatures.
+
+**Methods**
+
+- TCGA data acquisition using `TCGAbiolinks`
+- Differential expression analysis (`DESeq2`)
+- Functional enrichment (GO / KEGG)
+- Survival modeling
+- External validation in GEO cohorts
+
+![PCA](https://raw.githubusercontent.com/ag48665/tcga-lusc-biomarker-analysis/main/figures/pca_lusc_tp_vs_nt.png)
+
+---
+
+## Immune Landscape and Immune Escape in Lung Squamous Cell Carcinoma
 
 🔗 https://github.com/ag48665/lusc-immune-escape-analysis
 
-Computational analysis of tumor immune microenvironment in lung squamous cell carcinoma using RNA-seq immune gene signatures and machine learning.
+Computational analysis of the tumor immune microenvironment using immune gene signatures and machine learning approaches.
 
-This project investigates how immune activation, cytotoxic T-cell activity, tertiary lymphoid structures (TLS), and T-cell exhaustion shape tumor immune phenotypes and contribute to immune escape.
+**Methods**
 
-**What this project demonstrates**
-
-• Immune gene signature scoring (TIS, Cytotoxicity, TLS, Exhaustion)  
-• Tumor immune landscape analysis using PCA and UMAP  
-• Machine learning classification of immune phenotypes (Random Forest)  
-• Feature importance analysis and SHAP interpretation  
-• Immune checkpoint signaling analysis (PD-1 / PD-L1 / CTLA4 / TIGIT / LAG3)  
-• Construction of an immune state model based on cytotoxicity and exhaustion  
-• Pathway enrichment and immune gene network analysis  
-
-**Key scientific finding**
-
-Tumors with high immune activation show strong upregulation of immune checkpoint pathways, suggesting that chronic immune stimulation drives T-cell exhaustion and promotes tumor immune escape.
+- Immune signature scoring
+- PCA / UMAP immune landscape visualization
+- Random Forest classification
+- SHAP feature interpretation
+- Immune checkpoint signaling analysis
 
 ![Immune landscape](https://raw.githubusercontent.com/ag48665/lusc-immune-escape-analysis/main/results_safe/FIG_UMAP_panel_subtype_TIS_TLS_EXH_CYTO.png)
 
 ---
 
-## Additional Research Projects
-
-### Tumor Immune Evasion in Lung Cancer — Single-Cell RNA-seq Analysis
+## Single-Cell RNA-seq Analysis of Tumor Immune Evasion
 
 🔗 https://github.com/ag48665/tcga-lung-immune-evasion-scRNAseq
 
-Single-cell transcriptomic analysis investigating how lung cancer tumors alter the tumor microenvironment to suppress immune response.
+Single-cell transcriptomic analysis exploring immune cell populations and immune checkpoint signaling in lung cancer.
 
 **Methods**
 
-* Scanpy preprocessing and quality control
-* PCA and UMAP dimensionality reduction
-* Clustering and immune cell annotation
-* Marker gene identification
-* Immune checkpoint expression analysis (PD-1 / PD-L1 / CTLA4)
-
-**Relevance**
-
-* Tumor microenvironment characterization
-* Immunotherapy-related biology
-* Research-level single-cell workflow
+- Scanpy preprocessing
+- PCA / UMAP
+- clustering and annotation
+- immune checkpoint expression analysis
 
 ---
 
-### Protein Function Analysis using AI (ESM-2)
+# Additional Projects
 
-🔗 https://github.com/ag48665/Agata-Gabara/tree/main/Python%20Projects/Protein-Dataset-Analysis
+### PBMC Single-Cell RNA-seq Atlas  
+https://github.com/ag48665/scrna-pbmc-cell-atlas
 
-Computational protein sequence analysis using deep learning protein language models.
+Single-cell RNA-seq analysis of human PBMC immune cell populations.
 
-**Methods**
+### Protein Sequence Analysis with AI (ESM-2)  
+Deep learning protein language model embeddings and sequence analysis.
 
-* Biopython sequence processing
-* Amino acid composition analysis
-* Motif detection
-* Deep learning embeddings (ESM-2)
+### Promoter Sequence Analysis (Biopython)  
+Exploration of promoter vs non-promoter DNA sequence characteristics.
 
----
-
-### Promoter Sequence Analysis (Biopython)
-
-🔗 https://github.com/ag48665/Agata-Gabara/tree/main/Biopython-Projects/promoter_project
-
-Exploratory computational genomics project distinguishing promoter vs non-promoter DNA regions using sequence features.
-
-**Methods**
-
-* GC-content analysis
-* k-mer frequency analysis
-* Motif interpretation
+### Clinical Survival Analysis  
+Exploratory analysis of clinical survival datasets.
 
 ---
 
-### Breast Cancer Survival Analysis
+# Technical Skills
 
-🔗 https://github.com/ag48665/Agata-Gabara/tree/main/breast-cancer-survival-analysis
+### Bioinformatics
 
-Clinical dataset analysis investigating factors associated with patient survival.
+- RNA-seq analysis  
+- Differential gene expression (DESeq2)  
+- Functional enrichment (GO / KEGG)  
+- Survival modeling (Cox regression, Kaplan–Meier)  
+- Prognostic gene signature development  
+- Single-cell RNA-seq analysis  
 
-**Skills demonstrated**
+### Programming
 
-* Medical data preprocessing
-* Exploratory analysis
-* Survival-related interpretation
+**R**
 
----
+- survival
+- glmnet
+- DESeq2
+- clusterProfiler
+- ggplot2
 
-### Single-Cell RNA-seq PBMC Cell Atlas
+**Python**
 
-🔗 https://github.com/ag48665/scrna-pbmc-cell-atlas
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scanpy
 
-Single-cell RNA sequencing analysis of human PBMC data.
+### Computational tools
 
-**Skills**
-
-* Quality control & filtering
-* PCA / UMAP
-* Cell clustering and annotation
-
----
-
-## 🛠 Technical Skills
-
-**Bioinformatics**
-
-* Bulk RNA-seq differential expression (DESeq2)
-* Single-cell RNA-seq analysis (Scanpy)
-* Functional pathway enrichment (GO / KEGG)
-* Survival analysis (Kaplan–Meier, Cox regression)
-* Sequence analysis (DNA & protein)
-
-**Programming**
-
-* R (DESeq2, ggplot2, survival analysis)
-* Python (pandas, numpy, matplotlib, seaborn, scanpy)
-
-**Tools**
-
-* Linux / Bash
-* Git & GitHub
-* Data preprocessing and visualization
-* Statistical analysis of biological datasets
+- Linux / Bash
+- Git & GitHub
+- Reproducible research workflows
+- Data visualization
 
 ---
 
-## 📌 Currently Learning
+# Current Learning
 
-* Advanced RNA-seq workflows
-* Biological interpretation of gene expression
-* Machine learning applications in genomics
+- advanced RNA-seq workflows  
+- transcriptomic biomarker discovery  
+- machine learning applications in cancer genomics  
 
 ---
 
-## 📫 Contact
+# Contact
 
-Agata Gabara
-[agatagabara@gmail.com](mailto:agatagabara@gmail.com)
-LinkedIn: https://www.linkedin.com/in/agatha-gabara-06494a37/
+Agata Gabara  
+
+Email:  
+agatagabara@gmail.com  
+
+LinkedIn:  
+https://www.linkedin.com/in/agatha-gabara-06494a37/
