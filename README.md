@@ -1,5 +1,5 @@
 # Agata Gabara  
-## Bioinformatics & Computational Cancer Genomics
+## Computational Cancer Genomics | Transcriptomics | RNA-seq | Survival Modeling
 
 Computational biology researcher focused on **transcriptomics, cancer genomics, and survival modeling**.
 
