@@ -1,9 +1,6 @@
 # 👩‍💻 Agata Gabara — Bioinformatics & Computational Biology Portfolio
 
-Early-career bioinformatics and computational biology candidate with hands-on experience analyzing genomic and transcriptomic data using R and Python.
-My main research interest is **computational cancer genomics** — understanding tumor biology and clinically relevant heterogeneity using gene expression data.
-
-Currently focusing on RNA-seq analysis, transcriptomics, and single-cell data analysis.
+Early-career bioinformatics researcher focusing on computational cancer genomics and transcriptomic data analysis.
 
 ---
 
