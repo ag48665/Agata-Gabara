@@ -9,30 +9,28 @@ Currently focusing on RNA-seq analysis, transcriptomics, and single-cell data an
 
 ## ⭐ Primary Research Project
 
-### Reproducible Cancer Transcriptomics — TCGA Lung Squamous Cell Carcinoma (RNA-seq)
+### Transcriptome-based Prognostic Signature for Lung Squamous Cell Carcinoma
 
-🔗 https://github.com/ag48665/tcga-lusc-biomarker-analysis
+🔗 https://github.com/ag48665/lusc-transcriptomic-prognostic-signature
 
-End-to-end computational genomics study analyzing TCGA lung cancer RNA-seq data to identify tumor biology and clinically relevant biomarkers.
+Development and validation of a transcriptome-based survival prediction model for lung squamous cell carcinoma using TCGA transcriptomic data and independent GEO validation cohorts.
 
 **What this project demonstrates**
 
-• Automated download and processing of TCGA data (`TCGAbiolinks`)
-• Differential expression analysis (`DESeq2`)
-• Functional interpretation (Gene Ontology & KEGG pathway enrichment)
-• Construction of a multi-gene prognostic expression signature
-• Survival modeling (Kaplan–Meier and multivariate Cox regression)
-• External validation in an independent GEO cohort
-• Fully reproducible one-command analysis pipeline
+• Transcriptome-wide survival modeling using Cox regression  
+• Elastic-net and Cox-prefilter feature selection strategies  
+• Kaplan–Meier survival stratification of risk groups  
+• Time-dependent ROC analysis for survival prediction  
+• Multivariable Cox regression integrating clinical variables  
+• Calibration analysis and decision curve analysis  
+• External validation in independent GEO cohorts (GSE30219, GSE37745)  
+• Fully reproducible bioinformatics workflow  
 
 **Key scientific finding**
 
-Tumor transcriptomic programs reflecting squamous epithelial differentiation and immune activation stratify patients by overall survival, indicating biologically meaningful heterogeneity within lung squamous cell carcinoma.
+A Cox-prefilter transcriptomic signature improves survival risk stratification in lung squamous cell carcinoma and demonstrates partial reproducibility in independent validation cohorts.
 
-![PCA](https://raw.githubusercontent.com/ag48665/tcga-lusc-biomarker-analysis/main/figures/pca_lusc_tp_vs_nt.png)
-![Survival](https://raw.githubusercontent.com/ag48665/tcga-lusc-biomarker-analysis/main/figures/signature_KM.png)
-
----
+![Model overview](https://raw.githubusercontent.com/ag48665/lusc-transcriptomic-prognostic-signature/main/figures/final_figure_panel.png)
 ### Immune Landscape and Immune Escape in Lung Squamous Cell Carcinoma
 
 🔗 https://github.com/ag48665/lusc-immune-escape-analysis
